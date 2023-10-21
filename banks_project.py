@@ -112,16 +112,3 @@ run_queries(query_statement, sql_connection)
 log_progress('Process Complete')
 sql_connection.close()
 log_progress('Server Connection closed')
-
-
-
-
-
-def run_query(query_statement, sql_connection):
-    ''' This function runs the query on the database table and
-    prints the output on the terminal. Function returns nothing. '''
-
-
-''' Here, you define the required entities and call the relevant
-functions in the correct order to complete the project. Note that this
-portion is not inside any function.'''
